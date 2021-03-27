@@ -1,0 +1,25 @@
+.intruduction {
+	height: 810px;
+	background: url('../img/introduction__bg.jpg');
+}
+.main-logo {
+
+}
+.introduction__container{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-logo__img {}
+
+.inroduction__text {
+	max-width: 730px;
+	
+	font-size: 16px;
+	line-height: 150%;
+
+	text-align: center;
+	text-transform: uppercase;
+}

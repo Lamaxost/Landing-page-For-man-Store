@@ -1,0 +1,36 @@
+.catalog__row {
+  display: flex;
+}
+.catalog__row .catalog__item:last-child {
+  margin: 0;
+}
+
+.catalog__item {
+  margin-right: 50px;
+}
+
+.item__img-wrapper {
+  width: 260px;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191B1C;
+}
+
+.item__name {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-family: Playfair Display;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.item__cost {
+  margin-top: 10px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
+}

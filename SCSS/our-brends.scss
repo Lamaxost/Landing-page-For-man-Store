@@ -1,0 +1,27 @@
+.our-brends{
+	background: #0F0F0F;
+}
+.our-brends__container {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+	
+}
+.our-brends__brends {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+@media screen and(max-width: 1050px){
+	.our-brends__brends {
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	}
+}
+.brends_brend {
+	width:auto;
+}
+.brend__image {}

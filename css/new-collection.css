@@ -1,0 +1,28 @@
+.new-collection {
+  min-height: 730px;
+  display: flex;
+}
+
+.new-collection__catalog {
+  flex: 0 1 auto;
+  padding: 0 80px;
+  box-sizing: border-box;
+  background: #000000;
+}
+
+.title_new-collection__catalog {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.title_new-collection__catalog::after {
+  bottom: -50px;
+}
+
+.new-collection__banner {
+  flex: 1 1 auto;
+  padding-bottom: 100px;
+  background: url("../img/new-collection__banner-bg.jpg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

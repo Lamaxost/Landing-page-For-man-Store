@@ -1,0 +1,15 @@
+.our-brends {
+  display: flex;
+  justify-content: center;
+  background: #0F0F0F;
+}
+
+.our-brends__brends {
+  background-color: #fff;
+  display: flex;
+  list-style-type: none;
+}
+
+.brends_brend {
+  width: auto;
+}

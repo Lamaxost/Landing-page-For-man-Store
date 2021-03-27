@@ -1,0 +1,19 @@
+.footer{
+	height: 50px;
+	background-color: #000000;
+}
+.footer__container {
+	height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+.footer__copyright {
+	font-size: 12px;
+	color:#D0D0D0;
+}
+.footer__producer {
+	color:#FFFFFF;
+	text-decoration: none;
+}

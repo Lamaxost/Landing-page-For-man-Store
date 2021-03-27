@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- @include 'header.html' -->
+		<div class="content">
+			<!-- @include 'introduction.html' -->
+			<!-- @include 'new-collection.html' -->
+			<!-- @include 'old-collection.html' -->
+			<!-- @include 'new-products.html' -->
+			<!-- @include 'our-brends.html' -->
+			<!-- @include 'other.html' -->
+		</div>
+		<!-- @include 'footer.html' -->
+	</div>
+</body>
+</html>
